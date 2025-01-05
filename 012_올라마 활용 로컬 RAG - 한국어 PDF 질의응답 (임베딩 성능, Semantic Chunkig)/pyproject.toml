@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ollama-local-rag-korean"
+version = "0.1.0"
+description = ""
+authors = ["jhlim <johlim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python =  ">=3.11,<3.13"
+langchain = "^0.3.14"
+langchain-ollama = "^0.2.2"
+langchain-community = "^0.3.14"
+pymupdf = "^1.25.1"
+langchain-experimental = "^0.3.4"
+langchain-chroma = "^0.1.4"
+protobuf = "^5.29.2"
+langchain-groq = "^0.2.2"
+scikit-learn = "^1.6.0"
+rapidocr-onnxruntime = "^1.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
